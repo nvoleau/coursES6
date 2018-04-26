@@ -1,14 +1,10 @@
-export class Person{
+//methode ce création class en es5
+function Person (nom,prenom){
 
-	var prenom ="";
+	this.prenom = prenom;
+	this.nom=nom;
+}
 
-	constructor(){}
-
-	function setPrenom(prenom){
-		this.prenom = prenom;
-	}
-
-	function getPrenom(){
-		return this.prenom;
-	}
-};
+Person.prototype.getName = function(){
+	return this.prenom+" "+this.nom;
+}

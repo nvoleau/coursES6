@@ -1,6 +1,4 @@
-var Person = require("Person.js")
 
-
-var person = new Person();
-person.setPrenom("joséphine");
-console.log(person.getPrenom);
+//methode es5
+var person = new Person("josephine","baker");
+console.log(person.getName());
