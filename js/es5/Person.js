@@ -1,5 +1,5 @@
 //methode ce création class en es5
-function Person (nom,prenom){
+function Person(nom,prenom){
 
 	this.prenom = prenom;
 	this.nom=nom;
